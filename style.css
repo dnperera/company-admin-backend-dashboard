@@ -37,4 +37,28 @@ body {
   box-shadow: 2px 5px 20px #444343;
   transform: translateY(-2px);
 }
-/*cend  navbar side */
+/*end  navbar side */
+
+/* Top navbar */
+.search-input {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #999999;
+  transition: all 0.4s;
+}
+.search-input:focus {
+  background: #eee;
+  box-shadow: none;
+}
+.search-button {
+  border-radius: 50%;
+  padding: 10px 16px;
+  transition: all 0.4s;
+}
+.search-button:hover {
+  background-color: #999999;
+  transform: translateY(-2px);
+}
+
+/* End Top navbar */
